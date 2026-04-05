@@ -93,7 +93,7 @@ export default function VerifyIdPage() {
             <div className="p-4 rounded-xl bg-white/3 border border-white/5 text-left space-y-2 mb-8">
               <p className="text-xs text-white/40 uppercase tracking-wider font-semibold">What happens next</p>
               {['You'll receive an email once verified', 'You can then purchase tokens', 'Start playing immediately after approval'].map(s => (
-                <div key={s} className="flex items-start gap-2 text-sm text-white/60">
+                <div className="flex items-start gap-2 text-sm text-white/60">
                   <CheckCircle2 size={14} className="text-green-400 mt-0.5 shrink-0" /> {s}
                 </div>
               ))}
